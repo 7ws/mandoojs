@@ -1,0 +1,29 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN"
+"http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+
+<html xmlns="http://www.w3.org/1999/xhtml">
+	
+	<head>
+		<title>Go go go, Mandoo!</title>
+		<meta http-equiv="Content-Type" content="text/html; charset=UTF-8"/>
+
+		<!-- Jasmine stuff -->
+		<link rel="stylesheet" type="text/css" href="lib/jasmine-1.0.2/jasmine.css"/>
+		<script type="text/javascript" src="lib/jasmine-1.0.2/jasmine.js"></script>
+		<script type="text/javascript" src="lib/jasmine-1.0.2/jasmine-html.js"></script>
+	</head>
+
+	<body>
+		<!-- Mandoo source -->
+		<script type="text/javascript" src="brain.js"></script>
+
+		<!-- specs -->
+		<script type="text/javascript" src="spec/brain.js"></script>
+
+		<script type="text/javascript">
+			jasmine.getEnv().addReporter(new jasmine.TrivialReporter());
+			jasmine.getEnv().execute();
+		</script>
+	</body>
+
+</html>
