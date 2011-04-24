@@ -1,5 +1,0 @@
-+function () {
-
-var Mandoo = function () {};
-	
-}()
